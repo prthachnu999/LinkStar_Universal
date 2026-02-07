@@ -1,9 +1,9 @@
 const CACHE_NAME = 'linkstar-universal-v2';
 const ASSETS = [
-    './',
     './LinkStart_Universal.html',
     './manifest.json',
-    './คิรโตะธีมดำ.jpg',
+    './คิริโตะ.jpg', 
+];
     'https://cdn.tailwindcss.com',
     'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js',
@@ -40,3 +40,4 @@ self.addEventListener('activate', (e) => {
         })
     );
 });
+
