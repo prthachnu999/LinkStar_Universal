@@ -1929,5 +1929,40 @@
     }
 </script>
 
+<a href="https://prthachnu999.github.io/My-Personal-Space/" class="portal-back-btn">
+    <span style="font-size: 1.2em;">←</span> Home
+</a>
+
+<style>
+    .portal-back-btn {
+        position: fixed;
+        bottom: 15px;       /* ขยับลงมาให้ชิดขอบล่างมากขึ้น */
+        left: 15px;         /* ขยับมาชิดซ้ายมากขึ้น */
+        z-index: 9999;
+        
+        /* ปรับขนาดให้เล็กลงตรงนี้ */
+        background-color: rgba(0, 0, 0, 0.6); /* ลดความทึบลงเล็กน้อย */
+        color: #cccccc;      /* สีตัวอักษรเทาจางๆ ไม่แย่งสายตา */
+        padding: 5px 12px;   /* ลดขนาดปุ่ม (บนล่าง 5px, ซ้ายขวา 12px) */
+        font-size: 0.85rem;  /* ลดขนาดตัวอักษร */
+        
+        border: 1px solid rgba(255, 255, 255, 0.3); /* ขอบบางลง */
+        border-radius: 20px;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        backdrop-filter: blur(3px);
+        transition: all 0.3s ease;
+    }
+
+    /* เอฟเฟกต์ตอนเอาเมาส์ไปชี้ */
+    .portal-back-btn:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #000000;
+        border-color: #ffffff;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: translateY(-2px); /* ลอยขึ้นนิดนึงแทนการขยายใหญ่ */
+    }
+</style>
+
 </body>
 </html>
