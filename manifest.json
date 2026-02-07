@@ -1,7 +1,7 @@
 {
   "name": "Link Start! File Master V25",
   "short_name": "LinkStart",
-  "start_url": "./LinkStart_Universal.html",
+  "start_url": "./index.html", 
   "display": "standalone",
   "background_color": "#020617",
   "theme_color": "#00d2ff",
