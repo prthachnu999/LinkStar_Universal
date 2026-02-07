@@ -1,14 +1,20 @@
 {
-  "name": "LinkStar Universal",
+  "name": "Link Start! Universal",
   "short_name": "LinkStar",
   "start_url": "./LinkStart_Universal.html",
   "display": "standalone",
   "background_color": "#0d1117",
-  "theme_color": "#3b82f6",
+  "theme_color": "#0d1117",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "คิรโตะธีมดำ.jpg",
       "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "คิรโตะธีมดำ.jpg",
+      "sizes": "512x512",
       "type": "image/jpeg"
     }
   ]
