@@ -1,16 +1,15 @@
 {
-  "name": "Link Start! File Master V25",
-  "short_name": "LinkStart",
-  "start_url": "LinkStart_Universal.html",
+  "name": "LinkStar Universal",
+  "short_name": "LinkStar",
+  "start_url": "./LinkStart_Universal.html",
   "display": "standalone",
-  "background_color": "#020617",
-  "theme_color": "#00d2ff",
+  "background_color": "#0d1117",
+  "theme_color": "#3b82f6",
   "icons": [
     {
-      "src": "คิริโตะ.jpg",
+      "src": "คิรโตะธีมดำ.jpg",
       "sizes": "192x192",
       "type": "image/jpeg"
     }
   ]
-
 }
