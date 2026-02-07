@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link Start! - File Master V25.0 (Titanium)</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0d1117">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="คิรโตะธีมดำ.jpg">
+    <link rel="icon" type="image/png" href="คิริโตะ.jpg">
+
     <link rel="icon" type="image/png" href="คิริโตะ.jpg">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -1963,6 +1969,44 @@
         transform: translateY(-2px); /* ลอยขึ้นนิดนึงแทนการขยายใหญ่ */
     }
 </style>
+
+<a href="https://prthachnu999.github.io/My-Personal-Space/" class="portal-back-btn">
+        <span style="font-size: 1.2em;">←</span> Home
+    </a>
+
+    <style>
+        .portal-back-btn {
+            position: fixed;
+            bottom: 15px; left: 15px; z-index: 9999;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #cccccc;
+            padding: 5px 12px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            backdrop-filter: blur(3px);
+            transition: all 0.3s ease;
+        }
+        .portal-back-btn:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #000000;
+            border-color: #ffffff;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+    </style>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('LinkStar App Ready!', reg))
+                    .catch(err => console.log('LinkStar App Failed', err));
+            });
+        }
+    </script>
 
 </body>
 </html>
